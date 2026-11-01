@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login | Star Hotel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Marcellus&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><link rel="stylesheet" href="css/style.css"></head>
+<body data-page="login"><div id="loader"><i class="fa-solid fa-star"></i></div><header id="nav"></header>
+<section class="sec"><div class="auth card"><h2 style="margin-bottom:6px">Welcome back</h2><p style="color:var(--muted);margin-bottom:20px">Log in to manage your bookings.</p>
+<form id="loginForm" novalidate><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="username"><span class="err" id="e_email"></span></div><div class="field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password"><span class="err" id="e_password"></span></div><label style="font-weight:500"><input type="checkbox" name="remember" style="width:auto"> Remember me</label>
+<p class="err" id="loginErr" style="margin:8px 0"></p><button class="btn" style="width:100%">Log in</button></form>
+<div class="acts" style="justify-content:center"><button type="button" class="btn line sm" data-demo="user" style="color:var(--navy)">Demo guest login</button><button type="button" class="btn line sm" data-demo="admin" style="color:var(--navy)">Demo admin login</button></div>
+<p style="margin-top:18px;text-align:center">New here? <a href="register.html" style="color:var(--gold2);font-weight:700">Create an account</a></p></div></section>
+<footer id="foot"></footer><div id="toasts" aria-live="polite"></div><script src="js/app.js"></script><script src="js/auth.js"></script></body></html>

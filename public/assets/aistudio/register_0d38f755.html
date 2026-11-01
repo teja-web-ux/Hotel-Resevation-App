@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Create account | Star Hotel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Marcellus&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><link rel="stylesheet" href="css/style.css"></head>
+<body data-page="register"><div id="loader"><i class="fa-solid fa-star"></i></div><header id="nav"></header>
+<section class="sec"><div class="auth card"><h2 style="margin-bottom:20px">Create your account</h2><form id="registerForm" novalidate><div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" ><span class="err" id="e_name"></span></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" ><span class="err" id="e_email"></span></div><div class="field"><label for="phone">Phone (10 digits)</label><input id="phone" name="phone" type="tel" ><span class="err" id="e_phone"></span></div><div class="field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="new-password"><span class="err" id="e_password"></span></div><div class="field"><label for="confirm">Confirm password</label><input id="confirm" name="confirm" type="password" autocomplete="new-password"><span class="err" id="e_confirm"></span></div>
+<button class="btn" style="width:100%">Create account</button></form><p style="margin-top:18px;text-align:center">Already registered? <a href="login.html" style="color:var(--gold2);font-weight:700">Log in</a></p></div></section>
+<footer id="foot"></footer><div id="toasts" aria-live="polite"></div><script src="js/app.js"></script><script src="js/auth.js"></script></body></html>
